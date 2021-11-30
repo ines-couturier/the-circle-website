@@ -167,7 +167,6 @@
 }
 
 /* For the register page */
-
 .registercard {
 	background-color: #8AB591;
 	width: 375px;
@@ -177,6 +176,33 @@
 	padding: 20px;
 	margin-top: 30px;
 	position: absolute;
+}
+.registercard h1{
+	font-family : 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 26px;
+	margin-left: 35px;
+	text-align: justify;
+	margin-right: 80px;
+}
+
+.registercard h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #044723;
+	font-size:  12px;
+	margin-left: 35px;
+}
+.registercard h6 {
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	font-size: 8px;
+	text-align: center;
+}
+
+.registercard h5,h2 {
+	color: #8AB591;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
 }
 
 .registercard h5 {
@@ -191,10 +217,11 @@
 	background-color: white;
 	width: 279px;
 }
-.bordure {
+.bordur {
 	border-bottom: 3px solid black;
 	border-right: 3px solid white;
-	width: 195px;}
+	width: 195px;
+}
 
 .align {
 	display: flex;
